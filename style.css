@@ -1,0 +1,124 @@
+body{
+    font-family: 'Fira Code', monospace;
+    color: #eeee;
+    background: linear-gradient(1010deg,  #ffca1ad7 0%, #000000 63%);
+}
+
+.logo{
+    height: 150px;
+    width: 130px;
+    margin: 0 44%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#inicio h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+#sobre h1{
+    display: flex;
+    margin-left: 20px;
+    color: rgba(255, 208, 0, 0.637);
+    padding-top: 25px;
+}
+
+#sobre p{
+    display: flex;
+    text-align: left;
+    margin-left: 17px;
+    font-size: 17px;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+}
+
+ .produtos a {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(255, 208, 0, 0.637);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 670px;
+    margin-top: 45px;
+}
+
+.produtos img{
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+}
+
+#objetivo h1{
+    display: flex;
+    margin-left: 20px;
+    color: rgba(255, 208, 0, 0.637);
+    padding-top: 25px;
+}
+
+#objetivo p{
+    display: flex;
+    text-align: left;
+    margin-left: 17px;
+    font-size: 17px;
+}
+
+.camisa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contatos h1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 745px;
+    margin-top: 35px;
+    color: rgba(255, 208, 0, 0.637);
+    padding-top: 25px;
+    padding-bottom: 7px;
+}
+
+#contatos img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 810px;
+}
+
+#contatos p{
+    display: flex;
+    text-align: right;
+    font-size: 17px;
+    margin-left: 870px;
+    padding: 13px;
+}
+
+#participantes h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 35px;
+    color: rgba(255, 208, 0, 0.637);
+    padding-top: 25px;
+}
+
+#participantes p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+

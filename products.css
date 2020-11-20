@@ -1,0 +1,122 @@
+body{
+    font-family: 'Fira Code', monospace;
+    color: #eeee;
+    background: linear-gradient(1010deg,  #ffca1ad7 0%, #000000 63%);
+}
+
+a .voltar{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    padding: 35px;
+
+}
+
+.logo{
+    height: 150px;
+    width: 130px;
+    margin: 0 44%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#inicio h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+#começo h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgba(255, 208, 0, 0.637);  
+}
+
+#ala h1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+#produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.produto{
+    width: 20%;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+footer img{
+    height: 200px;
+    width: 170px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+footer button{
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background: #ffe600;
+    cursor: pointer;
+    font-size: 14.5px;
+    transition: background-color 0.2s;
+}
+
+footer button:hover{
+    background: rgba(255, 208, 0, 0.801);
+}
+
+#contatos h1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 745px;
+    margin-top: 35px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 7px;
+}
+
+#contatos img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 810px;
+}
+
+#contatos p{
+    display: flex;
+    text-align: right;
+    font-size: 17px;
+    margin-left: 870px;
+    padding: 13px;
+}
+
+#participantes h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 35px;
+    color: rgba(255, 208, 0, 0.637);
+    padding-top: 25px;
+}
+
+#participantes p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
